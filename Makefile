@@ -5,7 +5,7 @@ manage=python championship/manage.py
 all: help
 
 # comandos para ejecutar en local
-local:
+run:
 	$(manage) runserver $(p) --settings=$(settings).local
 
 collectstatic:
